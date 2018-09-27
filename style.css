@@ -1,0 +1,42 @@
+.input + .input {
+    margin-top: 1rem;
+}
+
+.customizacoes {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+        max-width: 10rem;
+        background: transparent;
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+    }
+    
+    input[type=range]:focus {
+        outline: none;
+    }
+    
+    input[type=range]::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        background: transparent; 
+        border-color: transparent;
+        color: transparent;
+    }
+}
+@media (max-width: 768px) {
+    label {
+        display: block;
+    }
+    input {
+        width: 100%;
+        margin: 0;
+        max-width: 100% !important;
+    }
+}
