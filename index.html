@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>vo ve e te aviso - by alan gomes</title>
+</head>
+
+<body>
+    <div class="customizacoes">
+        <div class="input">
+            <label for="texto">Texto:</label>
+            <input id="texto" type="text" value="eu vo ve e te aviso">
+        </div>
+        <div class="input range">
+            <label for="offy">Posição vertical:</label>
+            <input type="range" min="0" max="100" value="36" class="slider" id="offy">
+        </div>
+        <div class="input range">
+            <label for="offx">Posição horizontal:</label>
+            <input type="range" min="0" max="100" value="4" class="slider" id="offx">
+        </div>
+        <div class="input range">
+            <label for="boxs">Área do texto:</label>
+            <input type="range" min="0" max="100" value="33" class="slider" id="boxs">
+        </div>
+        <div class="input">
+            <a id="download" href="#" download="voveeteaviso.png">Baixar imagem</a>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="generator.js"></script>
+</body>
+
+</html>
